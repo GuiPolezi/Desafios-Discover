@@ -20,10 +20,3 @@ https://melodic-phoenix-3834e2.netlify.app/ (RocketNews)
 
 
 
-
-<h3>Link dos Sites</h3>
-https://statuesque-kangaroo-e15b6a.netlify.app/ (Social-Tree)
-
-https://melodic-phoenix-3834e2.netlify.app/ (RocketNews)
-
-
