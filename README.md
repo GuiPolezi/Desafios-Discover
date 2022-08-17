@@ -6,7 +6,7 @@ https://statuesque-kangaroo-e15b6a.netlify.app/ (Social-Tree)
 
 https://melodic-phoenix-3834e2.netlify.app/ (RocketNews)
 
-https://graceful-frangollo-a875e4.netlify.app/ (Desafio Receita)
+https://graceful-frangollo-a875e4.netlify.app/ (Pagina de Receita)
 
 <h2>Desafio Social-tree:</h2>
 (página com uma lista de links (menu) que pode ser usada em perfis de redes sociais para direcionar o usuário para o local escolhido.)
