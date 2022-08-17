@@ -1,6 +1,11 @@
 # Desafios-Discover
 Resolução dos desafios Discover (rocketseat.com.br), estarei atualizando ao longo do tempo, feito pra praticar e aprender.
 
+<h3>Link dos Sites</h3>
+https://statuesque-kangaroo-e15b6a.netlify.app/ (Social-Tree)
+
+https://melodic-phoenix-3834e2.netlify.app/ (RocketNews)
+
 <h2>Desafio Social-tree:</h2>
 (página com uma lista de links (menu) que pode ser usada em perfis de redes sociais para direcionar o usuário para o local escolhido.)
 
