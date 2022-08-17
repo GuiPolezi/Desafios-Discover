@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-bg-color: #EAEAEA;
+    --bg-recipe-color: #FFFFFF;
+    --title-subtitle: #1B1B1B;
+    --footer-legend-image: #8F8F8F;
+    --texts:#39393A;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: var(--body-bg-color);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+main {
+    border-radius: 20px;
+    border: 1px solid white;
+    margin: 0 auto;
+    max-width: 90%;
+    background: var(--bg-recipe-color);
+    height: 100%;
+    margin-top: 25px;
+    box-shadow: 0 3px 20px #000;
+}
+
+header {
+    max-width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+figcaption {
+    text-align: end;
+    font-size: 15px;
+}
+
+img {
+    margin-top: 15px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    height: 280px;
+}
+
+h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+section {
+    margin-left: 40px;
+    padding: 10px;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+li {
+    margin-top: 15px;
+}
+
+h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Desc {
+    text-align: left;
+    padding: 15px;
+}
+
+footer {
+   bottom: 0;
+   position: fixed;
+   width: 90%;
+   text-align: center;
+}
