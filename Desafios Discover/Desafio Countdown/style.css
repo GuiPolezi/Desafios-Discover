@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+}
+
+body{
+    background-image:url(./Images/selecao-brasil-wallpaper-pc5.jpg);
+    background-position: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    overflow: hidden;
+}
+
+p{
+    margin: 0px;
+}
+
+/*Svg´s*/
+.TopSvg{
+    position: absolute;
+    width: 100vw;
+    top: -3rem;
+}
+
+.BottomSvg{
+    position: absolute;
+    width: 100vw;
+    bottom: -5rem;
+
+}
+/*Svg´s*/
+
+
+
+.Container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+ 
+
+}
+
+/* Coutent Countdown*/
+
+.TitleCountdown{
+    background: yellow;
+    border-radius: 5px;
+    box-shadow: 0  0 10px green;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 50px;
+    color: green;
+    margin-top: 5px;
+}
+
+.ContentCountdown{
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Countdown{
+    display: flex;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.Countdown div{
+    margin: 30px;
+}
+
+.Countdown p {
+    font-weight: 700;
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.Countdown span{
+    text-transform: capitalize;
+    color: black;
+}
+
+.TextCountdown{
+    font-size: 15px;
+    color: black;
+    margin-top: -2rem;
+}
+
+button{
+    outline: none;
+    background-color: var(--purple);
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    width: 20%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+    transition: all 0.3s ease 0s ;
+}
+
+button:hover{
+    transform: translateY(-7px);
+}
+
+/* Coutent Countdown*/
+
+
+/*Content Image*/
+
+.ContentImage{
+    background-image: url('./Images/1549325322.svg');
+    background-repeat: no-repeat;
+    background-size: 70% ;
+    background-position: center ;
+
+}
+
+/*Content Image*/
+
+/*Modal Container*/
+
+.titleModal{
+    
+    background: url(./Images/depositphotos_6764875-stock-photo-brazilian-vintage-flag.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;  
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.modalContainer{
+    max-width: 1000px;
+    height: 60vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(./Images/selecao-brasil-wallpaper-pc5.jpg);
+    background-repeat: repeat;
+    background-position: cover;
+
+    padding: 30px;
+    display: none;
+}
+
+.btnCloseIcon{
+    position: relative;
+    float: right;
+    background-color: transparent;
+    margin-left: 4rem;
+}
+
+.btnCloseIcon img{
+    margin: 0;
+    width: 10%;
+}
+
+iframe {
+    width: 100%;
+    height: 50vh;
+}
+
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script defer src="./modal.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Coming Soon</title>
+</head>
+<body>
+        
+    <div class="Container">
+
+        <img class="TopSvg" src="./Images/top-image.svg" alt="">
+        <img class="BottomSvg" src="./Images/bottom-image.svg" alt="">
+
+
+        <div class="ContentCountdown">
+
+            <h1 class="TitleCountdown">Copa do mundo 2022</h1>
+
+            <div class="Countdown">
+
+                <div class="CountdownElementsDays">
+                    <span>dias</span>
+                    <p class="text" id="dias">0</p>
+                </div>
+               
+                <div class="CountdownElementsHours">
+                    <span>horas</span>
+                    <p class="text" id="horas">0</p>
+                </div>
+               
+                <div class="CountdownElementsMinutes">
+                    <span>minutos</span>
+                    <p class="text" id="minutos">0</p>
+                </div><br> 
+                
+                <div class="CountdownElementsSeconds">
+                    <span>segundos</span>
+                    <p class="text" id="segundos">0</p>
+                </div>
+
+            </div>
+
+           <p class="TextCountdown">Tempo até o brasil ganhar a copa</p>
+
+           <button onclick="openModal()">Skills Neymar</button>
+
+        </div>
+
+        <div class="ContentImage">
+
+
+        </div>
+
+        <div class="modalContainer" id="modalDisplay">
+
+            <button class="btnCloseIcon" id="closeIcon" onclick="closeModal()"><img src="./Images/close-icon.svg" alt=""></button>
+            
+            <iframe  id="Video"
+                width="400" 
+                height="315" 
+                src="https://www.youtube.com/embed/UH4wZrQYyKw" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; gyroscope;" 
+                allowfullscreen>
+            </iframe>
+            <h2 class="titleModal">10 do HEXA</h2>
+            
+        <!--
+    
+                <div class="capture">
+    
+                    <input type="text" name="" id="" placeholder="Seu nome">
+                    <input type="email" name="" id="" placeholder="Seu email">
+    
+                    <button class="SendEmail">Enviar</button>
+    
+                </div>
+
+      -->      
+        </div>
+    </div>
+</body>
+</html>
