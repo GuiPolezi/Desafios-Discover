@@ -4,7 +4,7 @@ Resolução dos desafios Discover (rocketseat.com.br), estarei atualizando ao lo
 <h3>Link dos Sites</h3>
 https://statuesque-kangaroo-e15b6a.netlify.app/ (Social-Tree)
 
-https://melodic-phoenix-3834e2.netlify.app/ (RocketNews)
+https://melodic-phoenix-3834e2.netlify.app/ (RocketNews) <br>
 https://graceful-frangollo-a875e4.netlify.app/ (Pagina de Receita)
 
 https://jolly-profiterole-c94010.netlify.app/ (Contagem regressiva COPA 2022)
