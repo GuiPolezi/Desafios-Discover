@@ -13,6 +13,13 @@ https://graceful-frangollo-a875e4.netlify.app/ (Pagina de Receita)
 
 ![image](https://user-images.githubusercontent.com/109323435/185037048-e3880690-4a2f-4e16-ba80-d94874cf43bd.png)
 
+
+<h2> Desafio Countdown </h2>
+(música nao para se não pausar o video, ainda nao sei como resolver)
+
+![image](https://user-images.githubusercontent.com/109323435/185273363-c036f546-6946-4de6-95be-1073e93e4d94.png)
+
+
 <h2>Desafios RocketNews</h2>
 (Nao ficou 100%)
 
